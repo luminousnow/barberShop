@@ -11,7 +11,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
     />
-
     <title>Заголовок страницы</title>
 
     <!-- jQuery -->
@@ -19,6 +18,7 @@
       type="text/javascript"
       src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"
     ></script>
+    <!-- /jQuery -->
     <!-- FlexSlider -->
     <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
     <script type="text/javascript" charset="utf-8">
@@ -27,7 +27,6 @@
         $('.flexslider').flexslider({
           animation: 'fade',
         });
-
         $(function () {
           $('.show_menu').click(function () {
             $('.menu').fadeIn();
@@ -42,23 +41,19 @@
         });
       });
     </script>
+    <!-- /FlexSlider -->
   </head>
   <body>
-    <include src="./partials/header-v2.html"></include>
-
+    <include src="./partials/header.html"></include>
     <main>
-      <include src="./partials/about_us.html"></include>
+      <include src="./partials/about-us.html"></include>
       <include src="./partials/price.html"></include>
-      <include src="./partials/section-feature.html"></include>
+      <include src="./partials/feature.html"></include>
       <include src="./partials/our-masters.html"></include>
       <include src="./partials/boroda.html"></include>
     </main>
-
     <include src="./partials/footer.html"></include>
-
     <script src="./js/menu.js"></script>
-
-    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
   </body>
 </html>
