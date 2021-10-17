@@ -184,7 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"sass/main.css":[function(require,module,exports) {
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"sass/main.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -192,8 +192,8 @@ module.hot.accept(reloadCSS);
 },{"D:\\dev\\barberShop\\src\\images\\img.png":[["img.d093e3de.png","images/img.png"],"images/img.png"],"./..\\images\\bg-footer.png":[["bg-footer.41ae13f8.png","images/bg-footer.png"],"images/bg-footer.png"],"./..\\images\\bg-footer@2x.png":[["bg-footer@2x.e7877c15.png","images/bg-footer@2x.png"],"images/bg-footer@2x.png"],"./..\\images\\bg-footer768.png":[["bg-footer768.5a20cee0.png","images/bg-footer768.png"],"images/bg-footer768.png"],"./..\\images\\bg-footer768@2x.png":[["bg-footer768@2x.941a2b73.png","images/bg-footer768@2x.png"],"images/bg-footer768@2x.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
-require("./sass/main.css");
-},{"./sass/main.css":"sass/main.css"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+require("./sass/main.scss");
+},{"./sass/main.scss":"sass/main.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58117" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55275" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
